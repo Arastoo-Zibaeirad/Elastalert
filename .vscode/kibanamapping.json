@@ -1,0 +1,27 @@
+
+put /elastalert_status
+{
+  "mappings":{
+    "properties":{
+      "ANPdata":{
+        "type":"text",
+        "fields":{
+          "keyword":{
+            "type":"text"
+          }
+        }
+      },
+      "ANPrule" : {
+        "type" : "nested",
+        "fields" : {
+          "keyword" : {
+            "type" : "keyword"
+    }
+  }
+}
+
+
+
+
+
+

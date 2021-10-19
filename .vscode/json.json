@@ -1,0 +1,241 @@
+{
+    "_index": "elastalert_status",
+    "_type": "_doc",
+    "_id": "XOoNcnsBOHeaVMkiyble",
+    "_version": 1,
+    "_score": null,
+    "fields": {
+      "match_body.winlog.channel.keyword": [
+        "Application"
+      ],
+      "ANPdata.keyword": [
+        "creation_date = \"2021/07/28\"",
+        "maturity = \"production\"",
+        "updated_date = \"2021/07/28\""
+      ],
+      "match_body._id": [
+        "NurAbXsBOHeaVMkix7OZ"
+      ],
+      "match_body.winlog.channel": [
+        "Application"
+      ],
+      "match_body.winlog.user.domain.keyword": [
+        "DESKTOP-MAP17T3"
+      ],
+      "match_body.agent.name.keyword": [
+        "DESKTOP-MAP17T3"
+      ],
+      "match_body.winlog.user.type.keyword": [
+        "User"
+      ],
+      "ANPrule": [
+        "author = [\"Elastic\"]"
+      ],
+      "match_body.host.name.keyword": [
+        "DESKTOP-MAP17T3"
+      ],
+      "match_body.winlog.provider_name": [
+        "EventCreate"
+      ],
+      "match_body.winlog.user.name": [
+        "anp-sec"
+      ],
+      "match_body.event.code": [
+        762
+      ],
+      "match_body.host.name": [
+        "DESKTOP-MAP17T3"
+      ],
+      "match_body.event.provider": [
+        "EventCreate"
+      ],
+      "match_body.winlog.opcode": [
+        "Info"
+      ],
+      "alert_time": [
+        "2021-08-23T08:08:29.676Z"
+      ],
+      "match_body.winlog.record_id": [
+        27086
+      ],
+      "match_body.message.keyword": [
+        "arastoo"
+      ],
+      "match_body._id.keyword": [
+        "NurAbXsBOHeaVMkix7OZ"
+      ],
+      "rule_name": [
+        "KQL_rule"
+      ],
+      "match_time": [
+        "2021-08-22T12:05:53.675Z"
+      ],
+      "match_body.event.kind": [
+        "event"
+      ],
+      "match_body.winlog.computer_name.keyword": [
+        "DESKTOP-MAP17T3"
+      ],
+      "match_body.winlog.event_data.param1.keyword": [
+        "arastoo"
+      ],
+      "match_body.winlog.task": [
+        ""
+      ],
+      "match_body.winlog.api.keyword": [
+        "wineventlog"
+      ],
+      "match_body.winlog.event_data.param1": [
+        "arastoo"
+      ],
+      "match_body.agent.ephemeral_id.keyword": [
+        "0e31a9fc-fb1d-465f-b681-c6bd68a8bbad"
+      ],
+      "match_body.event.kind.keyword": [
+        "event"
+      ],
+      "match_body.agent.type": [
+        "winlogbeat"
+      ],
+      "match_body.num_hits": [
+        3
+      ],
+      "match_body.winlog.user.domain": [
+        "DESKTOP-MAP17T3"
+      ],
+      "match_body.winlog.api": [
+        "wineventlog"
+      ],
+      "match_body.log.level.keyword": [
+        "information"
+      ],
+      "match_body.winlog.user.type": [
+        "User"
+      ],
+      "match_body.agent.hostname": [
+        "DESKTOP-MAP17T3"
+      ],
+      "match_body.ecs.version": [
+        "1.7.0"
+      ],
+      "match_body.winlog.user.identifier.keyword": [
+        "S-1-5-21-3807883594-4251767839-3946204069-1001"
+      ],
+      "match_body.winlog.keywords.keyword": [
+        "Classic"
+      ],
+      "alert_info.type.keyword": [
+        "slack"
+      ],
+      "rule_name.keyword": [
+        "KQL_rule"
+      ],
+      "ANPdata": [
+        "creation_date = \"2021/07/28\"",
+        "maturity = \"production\"",
+        "updated_date = \"2021/07/28\""
+      ],
+      "match_body.agent.id": [
+        "24aef432-54d0-48d1-a16e-662d77a7abf7"
+      ],
+      "match_body.winlog.user.name.keyword": [
+        "anp-sec"
+      ],
+      "alert_info.slack_username_override.keyword": [
+        "elastalert"
+      ],
+      "match_body.agent.name": [
+        "DESKTOP-MAP17T3"
+      ],
+      "match_body.winlog.provider_name.keyword": [
+        "EventCreate"
+      ],
+      "alert_info.type": [
+        "slack"
+      ],
+      "match_body._index.keyword": [
+        "winlogbeat-7.11.1-2021.08.22-000001"
+      ],
+      "match_body.message": [
+        "arastoo"
+      ],
+      "match_body.agent.version": [
+        "7.11.1"
+      ],
+      "match_body._index": [
+        "winlogbeat-7.11.1-2021.08.22-000001"
+      ],
+      "match_body.winlog.user.identifier": [
+        "S-1-5-21-3807883594-4251767839-3946204069-1001"
+      ],
+      "match_body.log.level": [
+        "information"
+      ],
+      "match_body.event.created": [
+        "2021-08-22T12:05:54.736Z"
+      ],
+      "match_body.ecs.version.keyword": [
+        "1.7.0"
+      ],
+      "match_body.winlog.task.keyword": [
+        ""
+      ],
+      "match_body.winlog.keywords": [
+        "Classic"
+      ],
+      "match_body.agent.version.keyword": [
+        "7.11.1"
+      ],
+      "match_body.agent.ephemeral_id": [
+        "0e31a9fc-fb1d-465f-b681-c6bd68a8bbad"
+      ],
+      "match_body.event.provider.keyword": [
+        "EventCreate"
+      ],
+      "match_body.num_matches": [
+        3
+      ],
+      "match_body.agent.hostname.keyword": [
+        "DESKTOP-MAP17T3"
+      ],
+      "alert_info.slack_username_override": [
+        "elastalert"
+      ],
+      "match_body.agent.id.keyword": [
+        "24aef432-54d0-48d1-a16e-662d77a7abf7"
+      ],
+      "alert_sent": [
+        true
+      ],
+      "match_body.@timestamp": [
+        "2021-08-22T12:05:53.675Z"
+      ],
+      "match_body.winlog.opcode.keyword": [
+        "Info"
+      ],
+      "match_body.winlog.computer_name": [
+        "DESKTOP-MAP17T3"
+      ],
+      "@timestamp": [
+        "2021-08-23T08:08:31.123Z"
+      ],
+      "match_body._type": [
+        "_doc"
+      ],
+      "match_body.agent.type.keyword": [
+        "winlogbeat"
+      ],
+      "match_body._type.keyword": [
+        "_doc"
+      ],
+      "ANPrule.keyword": [
+        "author = [\"Elastic\"]"
+      ],
+      "match_body.winlog.event_id": [
+        762
+      ]
+    },
+    "sort": [
+      1629706111123
+    ]
+  }
